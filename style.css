@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    font-family:Red Hat Display;
+    font-size:16px;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+
+}
+
+.container{
+   
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.hero--image {
+    position: relative;
+    width: 100%;
+    object-fit: contain;
+}
+
+.title{
+    font-size: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+}
+.music--plan{
+    background-color:hsl(225, 100%, 98%);
+    margin: 15px;
+    border-radius: 15px;
+}
+.music--icon{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 10px 30px;
+    padding: 15px;
+}
+.plan{
+   flex: 1;
+}
+.button{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: hsl(223, 47%, 23%);
+}
+.button:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(224, 23%, 55%)
+}
+    
+.payment--button{
+    padding: 15px;
+    background-color: hsl(245, 75%, 52%);
+    width: 90%;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+.payment--button:hover{
+
+    transition: all .25s cubic-bezier(.02, .01, .47, 1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:hsl(hue, saturation, lightness)
+}
+.cancel--order{
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+.cancel--order:hover{
+    font-weight: bold;
+
+}
+footer {
+    padding: 10px;
+}
+@media screen and (min-width: 375px){
+
+    body{
+        max-width: 1440px;
+        font-family:Red Hat Display;
+        font-size:16px;
+        background-color: hsl(225, 100%, 94%);
+        background-image: url(images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+    
+    }
+    
+    .container{
+       
+        width: 400px;
+        height: 550px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .hero--image {
+        position: relative;
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .title{
+        font-size: bold;
+        text-align: center;
+        margin-top: 15px;
+    }
+    p{
+        font-size: 16px;
+        text-align: center;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    .music--plan{
+        background-color:hsl(225, 100%, 98%);
+        margin: 15px;
+        border-radius: 15px;
+    }
+    .music--icon{
+        display: flex;
+        justify-content: space-between;
+        row-gap: 10px 30px;
+        padding: 15px;
+    }
+    .plan{
+       flex: 1;
+    }
+    .button{
+        text-decoration: underline;
+        text-decoration-color: blue;
+        color: hsl(223, 47%, 23%);
+    }
+    .button:hover{
+        text-decoration: none;
+        cursor: pointer;
+        color: hsl(224, 23%, 55%)
+    }
+        
+    .payment--button{
+        padding: 15px;
+        background-color: hsl(245, 75%, 52%);
+        width: 90%;
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        
+    }
+    .payment--button:hover{
+    
+        transition: all .25s cubic-bezier(.02, .01, .47, 1);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color:hsl(hue, saturation, lightness)
+    }
+    .cancel--order{
+        font-size: 18px;
+        margin: 10px;
+        cursor: pointer;
+        padding: 5px;
+    }
+    .cancel--order:hover{
+        font-weight: bold;
+    }
+
+}
